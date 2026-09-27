@@ -1,6 +1,6 @@
 # RTBX site
 
-One-page Hugo site for rtbx.io, built from `doc/RTBX.IO.pdf`.
+One-page Hugo site for rtbx.io.
 
 ## Structure
 
