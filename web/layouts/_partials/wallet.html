@@ -1,0 +1,16 @@
+<section>
+  <div class="two">
+    <div>
+      <h2>Ваш кошелёк</h2>
+      <p class="lead sm">Инвестиции картой — кратно {{ lang.FormatNumber 0 site.Params.minInvest }}&nbsp;₽ по курсу 1 койн = {{ site.Params.rate }}&nbsp;₽. Обмен BTC, ETH и USDT: средства уходят на адрес вашего Crypto Wallet и автоматически конвертируются в RTBX. О завершении операции придёт SMS.</p>
+      <p class="note">Все операции отображаются в логе транзакций сети.</p>
+    </div>
+    <div class="wallet" aria-label="Пример страницы /myrtbx">
+      <div class="note">Ваш баланс</div>
+      <div class="bal">{{ site.Params.demoBalance }} RTBX</div>
+      <a class="btn" href="{{ site.Params.startURL }}">Инвестировать в RTBX</a>
+      <a class="btn ghost" href="{{ site.Params.startURL }}">Обменять BTC, ETH, USDT</a>
+      <a class="btn ghost" href="{{ site.Params.startURL }}">Перевести другому владельцу</a>
+    </div>
+  </div>
+</section>

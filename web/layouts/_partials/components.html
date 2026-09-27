@@ -1,0 +1,8 @@
+<section>
+  <h2>Из чего состоит RTBX</h2>
+  <div class="grid">
+    {{ range $i, $c := hugo.Data.components }}
+    <div class="card"><div class="n">{{ printf "%02d" (add $i 1) }}</div><h3>{{ $c.title }}</h3><p>{{ $c.text }}</p></div>
+    {{ end }}
+  </div>
+</section>

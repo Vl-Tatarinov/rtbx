@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="hero">
+    <h1>{{ .Params.headline | safeHTML }}</h1>
+    <p class="lead">{{ .Params.lead }}</p>
+    <a class="btn" href="{{ site.Params.startURL }}">{{ .Params.cta }}</a>
+  </div>
+  {{ partial "components.html" . }}
+  {{ partial "interviews.html" . }}
+  {{ partial "start.html" . }}
+  {{ partial "wallet.html" . }}
+{{ end }}

@@ -1,0 +1,17 @@
+# Overridden in CI (see .github/workflows/hugo.yml) with the actual
+# GitHub Pages URL, e.g. https://<user>.github.io/<repo>/
+baseURL = "/"
+locale = "ru"
+defaultContentLanguage = "ru"
+title = "RTBX — экосистема гражданской ответственности"
+disableKinds = ["taxonomy", "term", "RSS", "section"]
+
+[params]
+  description = "RTBX — высокотехнологичная экосистема: RTBX Cat, открытый P2P-проект, соцсеть RTBX Opinion и ИИ-аналитика."
+  startURL = "#start"          # replace with the SMS / wallet entry link
+  rate = 9                     # rubles per coin
+  minInvest = 25000            # rubles, multiples of
+  demoBalance = "2 500"
+
+[minify]
+  minifyOutput = true

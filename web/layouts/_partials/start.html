@@ -1,0 +1,6 @@
+<section id="start">
+  <h2>Как начать</h2>
+  <ol class="steps">
+    {{ range hugo.Data.steps }}<li>{{ . | safeHTML }}</li>{{ end }}
+  </ol>
+</section>
